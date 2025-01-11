@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding-bottom: 15px;
+}
 .work-sans-normal {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
