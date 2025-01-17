@@ -1,6 +1,7 @@
-*{
-    margin: 0;
-    padding-bottom: 15px;
+body{
+    margin: 0 auto;
+    /* padding-bottom: 15px; */
+    padding: 0 auto;
 }
 .work-sans-normal {
   font-family: "Work Sans",sans-serif;
@@ -193,4 +194,25 @@ footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+/* Responsive */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+   .skills-container, .resume-container, footer, .about-items{
+    flex-direction: column;
+   }
+   footer{
+    padding: 20px;
+   }
+   .footer-column{
+    width: 100%;
+   }
+   footer input[type="text"],footer input[type="email"],footer textarea{
+    width: calc(100% - 40px);
+   }
+   .about{
+    padding: 20px;
+   }
 }
